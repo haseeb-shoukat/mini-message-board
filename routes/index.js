@@ -1,4 +1,4 @@
-let messages = [
+const messages = [
   { text: "Hello, how are you doing", user: "Dylan", added: new Date() },
   { text: "I am doing fine, thank-you", user: "Grigory", added: new Date() },
   { text: "I am ill.", user: "Dunechka", added: new Date() },
