@@ -6,8 +6,8 @@ block content
   form(method='POST' action='/new')
     label
       | Name: 
-      input(type='text')
+      input(type='text' name='username')
     label
       | Text: 
-      input(type='text')
+      input(type='text' name='messageText')
     button(type='submit') Send
