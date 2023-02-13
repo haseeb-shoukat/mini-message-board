@@ -17,7 +17,7 @@ router.get("/new", function (req, res, next) {
 });
 
 router.post("/new", function (req, res, next) {
-  const [messageText, username] = req.body;
+  const { messageText, username } = req.body;
   messages.push({
     text: messageText,
     user: username,
